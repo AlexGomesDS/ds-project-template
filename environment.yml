@@ -1,0 +1,14 @@
+name: dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cookiecutter
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - pandas
+  - plotly
+  - matplotlib
+prefix: /Users/alex/miniconda3/envs/dev
