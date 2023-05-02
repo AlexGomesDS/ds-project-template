@@ -2,6 +2,11 @@ Data Science Project Template
 ==============================
 
 Basic structure for a generic Data Science Project to be used as a template repository in Github.
+Instructions:
+- Fork this repo.
+- Replace this section and the title with something relevant for your project.
+- Rename the `src` directory to the name you wish to give to this project's python package 
+- Run a "search and replace all" over the entire project from `src` to the python package name chosen (make sure setup.py was updated).
 
 # Installation
 
@@ -18,7 +23,7 @@ conda env create -f environment.yml
 ```commandline
 python -m src.data.make_dataset
 ```
-
+...
 
 # Project Organization
 ------------
@@ -48,6 +53,9 @@ python -m src.data.make_dataset
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
+        │
+        ├── utils           <- Project wide utility code
+        │   └── configs.py
         │
         ├── data           <- Scripts to download or generate data
         │   └── make_dataset.py
