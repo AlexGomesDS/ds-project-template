@@ -11,4 +11,6 @@ dependencies:
   - pandas
   - plotly
   - matplotlib
+  - pip:
+    - --editable .
 prefix: /Users/alex/miniconda3/envs/dev
