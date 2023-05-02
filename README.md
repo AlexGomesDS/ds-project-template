@@ -1,8 +1,9 @@
 Data Science Project Template
 ==============================
 
-Basic structure for a generic Data Science Project to be used as a template repository in Github.
-Instructions:
+Minimal template repository for Data Science Projects.
+
+__Instructions:__
 - Fork this repo.
 - Replace this section and the title with something relevant for your project.
 - Rename the `src` directory to the name you wish to give to this project's python package 
