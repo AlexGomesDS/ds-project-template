@@ -5,19 +5,24 @@ Minimal template repository for Data Science Projects.
 
 __Instructions:__
 - Fork this repo.
-- Replace this section and the title with something relevant for your project.
 - Rename the `src` directory to the name you wish to give to this project's python package 
 - Run a "search and replace all" over the entire project from `src` to the python package name chosen (make sure setup.py was updated).
+- Rename the environment name from "dev" to the desired name in the `environment.yml` file
+- Go through the installation section below to create an appropriate environment with all the necessary python dependencies installed.
+- Replace this section and the title with something minigful to your project.
+
 
 # Installation
-
-## Python Dependencies
-
-To install the project Python Package, you should have Python 3.10 installed as well as the packages specified in `environment.yml`. 
-A quick and easy way to prepare this setup is by using [conda](https://docs.conda.io/en/latest/miniconda.html):
+Install the [conda](https://docs.conda.io/en/latest/miniconda.html) environment by running: 
 ```commandline
 conda env create -f environment.yml
 ```
+
+alternatively if you wish to update an existing one simply run 
+```commandline
+conda env update --file environment.yml --prune
+```
+
 
 ## Usage
 ### Running the data processing pipeline
